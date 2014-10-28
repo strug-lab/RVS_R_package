@@ -17,5 +17,5 @@ Description: The robust variance score (RVS) is a likelihood-based method that
 Depends:
     R (>= 3.1.1)
 License: GPL (>=3)
-URL: http://strug.ccb.sickkids.ca/rvs, https://github.com/strug-lab/RVS
+URL: http://strug.ccb.sickkids.ca/rvs, https://github.com/strug-lab
 LazyData: true
