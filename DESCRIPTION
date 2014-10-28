@@ -1,0 +1,21 @@
+Package: rvs
+Type: Package
+Title: Association Analysis using Next-Gen sequence data: Robust Variance Score
+    (RVS)
+Version: 0.0
+Date: 2014-10-20
+Authors@R: c(
+    person("Andriy", "Derkach", email = "derkach@utstat.toronto.edu", role = c("aut", "cre")),
+    person("Lisa", "Strug", email = "lisa.strug@utoronto.ca", role = "aut"),
+    person("Ted", "Chiang", email = "theodorechiang@gmail.com", role = c("ctb", "cre")) )
+Description: The robust variance score (RVS) is a likelihood-based method that
+    substitutes genotype calls by their expected values given observed sequence
+    data. RVS eliminates read depth bias in the estimation of minor allele
+    frequency. It controls Type I error and has comparable power to the 'gold
+    standard' analysis with the true underlying genotypes for both common and
+    rare variants.
+Depends:
+    R (>= 3.1.1)
+License: GPL (>=3)
+URL: http://strug.ccb.sickkids.ca/rvs, https://github.com/strug-lab/RVS
+LazyData: true
